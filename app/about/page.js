@@ -8,28 +8,28 @@ const GlassCard = ({ dataText, rotation, children }) => (
 
 const teamMembers = [
   {
-    name: "Luxx",
+    name: "Lakshya Garg",
     role: "Convener",
     image: "lexi.jpg",
-    twitter: "https://x.com/U_Kshitij17",
-    linkedin: "https://www.linkedin.com/in/kshitij-upadhyay17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    github: "https://github.com/ukshitij17"
+    twitter: "#",
+    linkedin: "#",
+    github: "https://github.com/LAKSHYAG16"
   },
   {
     name: "Param Saxena",
     role: "Co Convener",
     image: "/palak.jpg",
-    twitter: "https://x.com/U_Kshitij17",
-    linkedin: "https://www.linkedin.com/in/kshitij-upadhyay17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    github: "https://github.com/ukshitij17"
+    twitter: "#",
+    linkedin: "#",
+    github: "https://github.com/LAKSHYAG16"
   },
   {
-    name: "Satya",
+    name: "Satya Prakash",
     role: "Events & Finance Head",
     image: "/manas.jpg",
-    twitter: "https://x.com/U_Kshitij17",
-    linkedin: "https://www.linkedin.com/in/kshitij-upadhyay17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    github: "https://github.com/ukshitij17"
+    twitter: "#",
+    linkedin: "#",
+    github: "https://github.com/LAKSHYAG16"
   }
 ];
 

@@ -35,7 +35,7 @@ const pacifico = Pacifico({
 });
 
 export const metadata = {
-  title: "RecruitIQ - Intelligent Hiring Simplified",
+  title: "RecruitIQ - Intelligent Recruitment Redefined",
   description: "Experience the future of recruitment with AI-powered automation. From resume screening to candidate assessment, AIcruit makes hiring smarter, faster and more efficient",
 };
 
