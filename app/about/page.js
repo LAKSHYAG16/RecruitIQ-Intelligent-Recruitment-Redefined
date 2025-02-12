@@ -10,7 +10,7 @@ const teamMembers = [
   {
     name: "Lakshya Garg",
     role: "Convener",
-    image: "lexi.jpg",
+    image: "#",
     twitter: "#",
     linkedin: "#",
     github: "https://github.com/LAKSHYAG16"
