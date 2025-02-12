@@ -183,7 +183,7 @@ body {
   box-shadow: #1e1b4b47 40px 50px 25px -40px, #6c28d944 0px 25px 25px -5px;
 }
 
-.glass {
+.footer-glass {
   transform-style: preserve-3d;
   position: absolute;
   inset: 8px;
