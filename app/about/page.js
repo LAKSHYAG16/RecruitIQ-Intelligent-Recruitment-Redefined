@@ -18,7 +18,7 @@ const teamMembers = [
   {
     name: "Param Saxena",
     role: "Co Convener",
-    image: "/palak.jpg",
+    image: "#",
     twitter: "#",
     linkedin: "#",
     github: "https://github.com/LAKSHYAG16"
@@ -26,7 +26,7 @@ const teamMembers = [
   {
     name: "Satya Prakash",
     role: "Events & Finance Head",
-    image: "/manas.jpg",
+    image: "#",
     twitter: "#",
     linkedin: "#",
     github: "https://github.com/LAKSHYAG16"
