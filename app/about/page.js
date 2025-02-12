@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar';
 import React from 'react';
 
 const GlassCard = ({ dataText, rotation, children }) => (
@@ -35,6 +36,8 @@ const teamMembers = [
 
 const About = () => {
   return (
+    <>
+    <Navbar/>
     <div className="font-bold">
       <h1 className="text-5xl orbitron items-center justify-center flex text-gradient max-w-[55vw] m-auto p-10">
         About US
@@ -146,7 +149,7 @@ const About = () => {
     </div >
     </div >
     
-
+    </>
   );
 };
 
