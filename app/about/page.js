@@ -8,7 +8,7 @@ const GlassCard = ({ dataText, rotation, children }) => (
 
 const teamMembers = [
   {
-    name: "Utkarsh Pushpankar",
+    name: "Luxx",
     role: "Convener",
     image: "lexi.jpg",
     twitter: "https://x.com/U_Kshitij17",
@@ -16,7 +16,7 @@ const teamMembers = [
     github: "https://github.com/ukshitij17"
   },
   {
-    name: "Kshitij Upadhyay",
+    name: "Param Saxena",
     role: "Co Convener",
     image: "/palak.jpg",
     twitter: "https://x.com/U_Kshitij17",
@@ -24,17 +24,9 @@ const teamMembers = [
     github: "https://github.com/ukshitij17"
   },
   {
-    name: "Kushal Patni",
+    name: "Satya",
     role: "Events & Finance Head",
     image: "/manas.jpg",
-    twitter: "https://x.com/U_Kshitij17",
-    linkedin: "https://www.linkedin.com/in/kshitij-upadhyay17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    github: "https://github.com/ukshitij17"
-  },
-  {
-    name: "Prakhar Soni",
-    role: "Outreach Head",
-    image: "/dhruv.jpg",
     twitter: "https://x.com/U_Kshitij17",
     linkedin: "https://www.linkedin.com/in/kshitij-upadhyay17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     github: "https://github.com/ukshitij17"
