@@ -10,7 +10,7 @@ const GlassCard = ({ dataText, rotation, children }) => (
 const teamMembers = [
   {
     name: "Lakshya Garg",
-    role: "Convener",
+    role: "AI/ML & WebDev",
     image: "#",
     twitter: "#",
     linkedin: "#",
@@ -18,7 +18,7 @@ const teamMembers = [
   },
   {
     name: "Param Saxena",
-    role: "Co Convener",
+    role: "WebDev",
     image: "#",
     twitter: "#",
     linkedin: "#",
@@ -26,7 +26,7 @@ const teamMembers = [
   },
   {
     name: "Satya Prakash",
-    role: "Events & Finance Head",
+    role: "Database",
     image: "#",
     twitter: "#",
     linkedin: "#",
@@ -98,7 +98,7 @@ const About = () => {
         <div className="about-grid flex justify-center  gap-10 max-w-6xl">
 
           {teamMembers.map((member, index) => (
-            <div key={index} className="about-card bg-[#fac8da] min-w-[20vw] text-white rounded-2xl p-6 shadow-lg flex flex-col items-center">
+            <div key={index} className="about-card bg-[#9950a8] min-w-[20vw] text-white rounded-2xl p-6 shadow-lg flex flex-col items-center">
               <div className="about-profileimage w-28 h-28  rounded-full overflow-hidden border-4 border-gray-600">
                 <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
               </div>
