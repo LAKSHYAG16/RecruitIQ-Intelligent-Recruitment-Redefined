@@ -5,6 +5,7 @@ import { Pacifico } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SessionWrapper from "@/components/SessionWrapper";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -43,7 +44,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.variable} ${pacifico.variable} ${orbitron.variable} ${uncial_antiqua.variable} antialiased gradient`} >        
+        <SessionWrapper>
         {children}
+        </SessionWrapper>
       </body>
     </html>
   );
