@@ -2,6 +2,7 @@
   "name": "aicruit-intelligent-hiring-simplified",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,10 +11,13 @@
   },
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.2.5",
+    "@tabler/icons-react": "^3.30.0",
+    "aceternity-ui": "^0.2.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "framer-motion": "^12.4.2",
+    "framer-motion": "^12.4.3",
     "lucide-react": "^0.475.0",
+    "motion": "^12.4.2",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

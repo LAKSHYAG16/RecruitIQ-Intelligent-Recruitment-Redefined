@@ -7,10 +7,10 @@ const LoginNavbar = () => {
 
             <Link href={"/"}>
             <div className="logo-nav flex items-center gap-2">
-                <img className='ml-4' width={50} src="AIcruit_nobg.png" alt="logo" />
+                <img className='ml-4 rounded-full' width={50} src="logo.webp" alt="logo" />
                 <div className="text">
-                    <span className='uncial text-xl text-teal-400'>AI</span>
-                    <span className='uncial text-xl text-lime-400'>cruit</span>
+                    <span className='uncial text-xl text-[#6d28d9]'>Recruit</span>
+                    <span className='uncial text-xl text-[#4c1d95]'>IQ</span>
                 </div>
             </div>
             </Link>
