@@ -109,7 +109,7 @@ const GlassCard = ({ dataText, rotation, children }) => (
             <div className="about-grid flex justify-center  gap-10 max-w-6xl">
 
               {teamMembers.map((member, index) => (
-                <div key={index} className="about-card bg-[#9950a8] min-w-[22vw] max-w-[22vw] text-white rounded-2xl p-6 shadow-lg flex flex-col items-center">
+                <div key={index} className="about-card bg-[#451d84] min-w-[22vw] max-w-[22vw] text-white rounded-2xl p-6 shadow-lg flex flex-col items-center">
                   <div className="about-profileimage w-28 h-28  rounded-full overflow-hidden border-4 border-gray-600">
                     <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
                   </div>

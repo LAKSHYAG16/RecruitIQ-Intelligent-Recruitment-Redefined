@@ -6,7 +6,7 @@ import { useSession, signOut } from "next-auth/react";
 import { useRouter } from 'next/navigation';
 
 const JobCard = ({ job }) => (
-    <div className="bg-gradient-to-r from-[#4b2060] to-[#7b258c] text-white rounded-2xl shadow-lg p-6 min-w-[280px] max-w-sm hover:scale-105 transition-transform">
+    <div className="bg-gradient-to-r from-[#451d84] to-[#8c44f7] text-white rounded-2xl shadow-lg p-6 min-w-[280px] max-w-sm hover:scale-105 transition-transform">
       <div className="flex justify-between items-center mb-4">
         <h3 className="text-2xl max-w-20 font-semibold">{job.title}</h3>
         <Button className="bg-[#989898] text-black px-2 py-1 rounded-full text-sm">→</Button>
@@ -66,11 +66,11 @@ const HRdashboard = () => {
     <div className="flex">
       <Sidebar />
       <div className="ml-64 flex-1 p-6 overflow-y-auto h-screen">
-        <h1 className="text-[#651d95] text-5xl orbitron flex justify-center text-gradient max-w-[55vw] m-auto p-10">Company Name</h1>
+        <h1 className="text-[#451d84] text-5xl orbitron flex justify-center text-gradient max-w-[55vw] m-auto p-10">Company Name</h1>
         <h2 className="max-w-[65vw] flex justify-center m-auto mt-5 text-4xl poppins subtext-gradient">Welcome back, {session?.user?.name || "HR"}!</h2>
 
         <section className="mt-10 px-4">
-          <h3 className="text-[#651d95] text-3xl font-semibold mb-6">Current Openings</h3>
+          <h3 className="text-[#451d84] text-3xl font-semibold mb-6">Current Openings</h3>
           {/* Container for Job Cards with Transparent Scrollbar */}
           <div className="flex gap-4 overflow-x-auto scrollbar-transparent pb-4">
             {jobs.map((job, index) => (
