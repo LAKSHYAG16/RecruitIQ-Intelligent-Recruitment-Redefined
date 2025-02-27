@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const Sidebar = () => {
   return (
-    <div className="fixed top-0 left-0 h-screen w-64 bg-gradient-to-r from-[#451d84] to-[#8c44f7] text-white p-6 shadow-lg border-r border-[#7b258c]/50">
+    <div className="fixed top-0 left-0 h-screen w-64 bg-[#431982] text-white p-6 shadow-lg border-r border-[#7b258c]/50">
       {/* Logo and Company Name */}
       <div className="flex items-center mb-8">
         <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center mr-3">

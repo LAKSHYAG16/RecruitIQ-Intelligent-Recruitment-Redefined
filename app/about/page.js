@@ -9,138 +9,99 @@ const GlassCard = ({ dataText, rotation, children }) => (
   </div>
 );
 
+
 const timelineData = [
   {
-    title: "2024",
-    content: (
-      <div>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          Built and launched Aceternity UI and Aceternity UI Pro from scratch
-        </p>
-        {/* <div className="grid grid-cols-2 gap-4">
-          <Image
-            src="https://assets.aceternity.com/templates/startup-1.webp"
-            alt="startup template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-          <Image
-            src="https://assets.aceternity.com/templates/startup-2.webp"
-            alt="startup template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-          <Image
-            src="https://assets.aceternity.com/templates/startup-3.webp"
-            alt="startup template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-          <Image
-            src="https://assets.aceternity.com/templates/startup-4.webp"
-            alt="startup template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-        </div> */}
-      </div>
-    ),
+    emoji: "🔍",
+    title: " Smarter Resume Screening – Eliminating Bias & Improving Efficiency",
+    description: `• The Problem: Traditional resume screening often leads to delays and unconscious biases, where recruiters may favor certain schools, companies, or backgrounds.
+     Our Solution: Our AI-powered resume analysis tool evaluates candidates holistically, focusing on skills, experience, and potential rather than just keywords or past job titles..
+
+• How It Works:
+Uses Natural Language Processing (NLP) to understand resumes beyond keyword matching.
+Identifies hidden talent by analyzing career trajectories, projects, and achievements.
+Ensures fairness by masking names, genders, and other personal identifiers to promote unbiased hiring.`,
   },
   {
-    title: "Early 2023",
-    content: (
-      <div>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          I usually run out of copy, but when I see content this big, I try to
-          integrate lorem ipsum.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          Lorem ipsum is for people who are too lazy to write copy. But we are
-          not. Here are some more example of beautiful designs I built.
-        </p>
-        {/* <div className="grid grid-cols-2 gap-4">
-          <Image
-            src="https://assets.aceternity.com/pro/hero-sections.png"
-            alt="hero template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-          <Image
-            src="https://assets.aceternity.com/features-section.png"
-            alt="feature template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-          <Image
-            src="https://assets.aceternity.com/pro/bento-grids.png"
-            alt="bento template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-          <Image
-            src="https://assets.aceternity.com/cards.png"
-            alt="cards template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-        </div> */}
-      </div>
-    ),
+    emoji: "📅",
+    title: " AI-Driven Interview Scheduling – Bridging the Gap Between HR & Candidates",
+    description:
+      `• The Problem: Coordinating interviews across multiple candidates and interviewers is time-consuming, leading to delays in the hiring process.
+     Our Solution: Our AI-powered scheduling assistant automates interview coordination, reducing back-and-forth emails.
+
+• How It Works:
+Integrates with popular calendars (Google, Outlook, etc.) to find the best available slots.
+Provides real-time rescheduling options if conflicts arise.
+Sends automated reminders and follow-ups to ensure both HR and candidates stay informed.`,
   },
   {
-    title: "Changelog",
-    content: (
-      <div>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-          Deployed 5 new components on Aceternity today
-        </p>
-        <div className="mb-8">
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Card grid component
-          </div>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Startup template Aceternity
-          </div>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Random file upload lol
-          </div>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Himesh Reshammiya Music CD
-          </div>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Salman Bhai Fan Club registrations open
-          </div>
-        </div>
-        {/* <div className="grid grid-cols-2 gap-4">
-          <Image
-            src="https://assets.aceternity.com/pro/hero-sections.png"
-            alt="hero template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-          <Image
-            src="https://assets.aceternity.com/features-section.png"
-            alt="feature template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-          <Image
-            src="https://assets.aceternity.com/pro/bento-grids.png"
-            alt="bento template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-          <Image
-            src="https://assets.aceternity.com/cards.png"
-            alt="cards template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset" />
-        </div> */}
-      </div>
-    ),
+    emoji: "🤝",
+    title: " Personalized Candidate Recommendations – Finding the Right People for the Right Job",
+    description:
+      `• The Problem: Many job seekers receive irrelevant job recommendations, leading to frustration and wasted applications.
+ Our Solution: Our AI engine matches candidates not just based on job titles but on skills, career goals, and company culture fit.
+
+• How It Works:
+Analyzes job descriptions and candidate profiles using machine learning models.
+Provides ranked recommendations based on experience, preferences, and hiring trends.
+Continuously learns from recruiter and candidate interactions to improve match accuracy.`,
+  },
+  {
+    emoji: "🧠",
+    title: "AI-Powered Candidate Insights – Helping Job Seekers Improve",
+    description:
+      `• The Problem: Many candidates apply for jobs but never receive feedback, making it hard to improve their chances.
+Our Solution: Our AI analyzes resumes and applications, offering personalized feedback on strengths and areas for improvement.
+
+• How It Works:
+Identifies missing technical skills, soft skills, and industry trends relevant to the job.
+Suggests resume enhancements based on successful applications.
+Provides career trajectory insights, helping candidates plan their next steps strategically.`,
+  },
+  {
+    emoji: "🎤",
+    title: "Mock Interviews & Real-Time Feedback – Preparing Candidates for Success",
+    description:
+      `• The Problem: Many candidates struggle with interview performance, leading to missed opportunities.
+Our Solution: Our AI-powered mock interview tool simulates real interview scenarios, evaluating communication, confidence, and technical knowledge.
+
+• How It Works:
+Uses speech analysis and facial recognition to assess non-verbal cues like confidence and clarity.
+Provides real-time feedback on common interview mistakes.
+Includes industry-specific technical assessments to help candidates refine their answers.`,
+  },
+  {
+    emoji: "⚖️",
+    title: " Ethical & Bias-Free Hiring – Ensuring Fair & Inclusive Recruitment",
+    description:
+      `• The Problem: AI hiring systems can unintentionally introduce biases if not managed properly.
+ Our Solution: Our platform integrates Explainable AI (XAI) to ensure transparent and unbiased hiring decisions.
+
+• How It Works:
+Uses bias detection algorithms to identify and mitigate discriminatory patterns.
+Promotes diversity and inclusion by ensuring equal opportunities for all candidates.
+Provides HR teams with AI-driven insights to make fair, data-driven hiring decisions.`,
+  },
+  {
+    emoji: "📢",
+    title: " Continuous Engagement & Post-Interview Support – Building a Stronger Hiring Ecosystem",
+    description:
+      `• The Problem: Many hiring platforms focus only on the application process, ignoring post-interview experiences.
+ Our Solution: Our AI-driven engagement system keeps candidates connected with companies even after interviews.
+
+• How It Works:
+Collects feedback from HR and candidates to refine future hiring decisions.
+Provides job seekers with career insights and tailored job alerts.
+Builds a community-driven recruitment experience where candidates stay informed about future opportunities.`,
   },
 ];
+
+
+
+
+
+
+
 
 const teamMembers = [
   {
@@ -228,7 +189,7 @@ const About = () => {
           </GlassCard>
         </div>
 
-        
+
         <div className="w-full">
           <Timeline data={timelineData} />
         </div>

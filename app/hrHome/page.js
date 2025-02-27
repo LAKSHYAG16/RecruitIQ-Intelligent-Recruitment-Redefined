@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import Sidebar from "@/components/Sidebar";
 
 const JobCard = ({ job }) => (
-  <div className="bg-gradient-to-r from-[#451d84] to-[#8c44f7] text-[#b5b5b5] rounded-2xl shadow-lg p-6 min-w-[280px] max-w-sm hover:scale-105 transition-transform">
+  <div className="bg-gradient-to-r bg-[#431982]  text-[#b5b5b5] rounded-2xl shadow-lg p-6 min-w-[280px] max-w-sm hover:scale-105 transition-transform">
     <div className="flex justify-between items-center mb-4">
-      <h3 className="text-2xl font-semibold">{job.title}</h3>
+      <h3 className="text-2xl max-w-32 font-semibold">{job.title}</h3>
       <Button className="bg-[#c4c4c4] text-black px-2 py-1 rounded-full text-sm">→</Button>
     </div>
     <p className="text-sm mb-2">📅 Posted {job.postedDate}</p>
